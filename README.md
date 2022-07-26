@@ -1,6 +1,6 @@
 ![dealscraper logo](img/logo.png)
 
-![Badges](https://img.shields.io/github/repo-size/fchehade/acnhanimaltracker?label=Repo%20Size) ![Badges](https://img.shields.io/github/license/fchehade/acnhanimaltracker)
+![Badges](https://img.shields.io/github/languages/code-size/fchehade/dealscraper) ![Badges](https://img.shields.io/github/license/fchehade/dealscraper)
 
 `dealscraper` is a quick alternative to searching https://www.sparwelt.de/gratis/cashback manually. dealscraper will download all free product offer and display them sorted by date in a tkinter application.
 
