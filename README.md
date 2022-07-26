@@ -1,4 +1,4 @@
-![dealscraper logo](img/logo.png)
+![dealscraper logo](images/logo.png)
 
 ![Badges](https://img.shields.io/github/languages/code-size/fchehade/dealscraper) ![Badges](https://img.shields.io/github/license/fchehade/dealscraper)
 
@@ -15,8 +15,8 @@ Constructive criticism and contributions are well appreciated.
 **Table of Contents**
 ---
 + [Key Features](#key-features)
-+ [Quick Demo](#quick-demo)
 + [Usage](#usage)
++ [Quick Example Images](#quick-example-images)
 + [Installation Options](#installation-options)
 + [How to contribute](#how-to-contribute)
 + [License](#license)
@@ -28,12 +28,6 @@ Constructive criticism and contributions are well appreciated.
 + application helps to separate the unnecessary from the interesting product facts
 + have a neat graphical interface to manage all of your "deal hunting"
 
-**Quick Demo**
----
-![GIF demo](img/demo.gif)
-
-Currently only tested on Windows 10.
-
 **Usage**
 ---
 
@@ -43,7 +37,12 @@ A new popup-window will open up with further details.
 Afterwards, you can choose to follow the product link or close the window to look for other deals.
 ```
 
-![Run](img/example.png)
+**Quick Example Images**
+---
+![example start screen](images/example1.png)
+![example offer screen](images/example2.png)
+
+Currently only tested on Windows 10.
 
 **Installation Options**
 ---
@@ -73,6 +72,6 @@ This project is licensed under [MIT](LICENSE)
 **Donations**
 ---
 
-This is free, open-source software. If you'd like to support the development of future projects, or say thanks for this one, you can donate at [Paypal](https://www.paypal.me/decalift) or [buy me a coffee](https://www.buymeacoffee.com/decalift).
+This is free, open-source software. If you'd like to support the development of future projects, or say thanks for this one, feel free to donate.
 
 <a href="https://www.paypal.me/decalift"><img src="https://www.paypalobjects.com/webstatic/de_DE/i/de-pp-logo-200px.png" alt="PayPal Logo"></a>&nbsp; &nbsp; <a href="https://www.buymeacoffee.com/decalift" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg" alt="Buy Me A Coffee"/></a>
