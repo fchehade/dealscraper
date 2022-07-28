@@ -19,9 +19,9 @@ class StartPage(ttk.Frame):
                 ),
             )
             if index % 2 == 0:
-                button.grid(row=index - 1, column=0, padx=2, pady=2)
+                button.grid(row=index - 1, column=1, padx=2, pady=2)
             else:
-                button.grid(row=index, column=1, padx=2, pady=2)
+                button.grid(row=index, column=0, padx=2, pady=2)
 
     def open_product_page(self, product, controller):
         ProductPage(controller, product)
