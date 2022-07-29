@@ -8,11 +8,11 @@ class Application(tkinter.Tk):
     def __init__(self, product_list, root_directory):
         super().__init__()
         self.configure(background="white")
+        self.geometry("1100x1000")
         self.product_list = product_list
         self.root_directory = root_directory
 
         self.title("Cashback - GUI")
-        self.attributes("-topmost", "true")
         platformD = system()
         if platformD == "Windows":
             self.iconbitmap(f"{self.root_directory}/images/cashback.ico")

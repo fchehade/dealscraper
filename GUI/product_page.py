@@ -13,7 +13,6 @@ class ProductPage(tkinter.Toplevel):
             self.iconbitmap(f"{controller.root_directory}/images/cashback.ico")
         elif platformD == "Darwin":
             self.iconbitmap(f"{controller.root_directory}/images/cashback.icns")
-        self.attributes("-topmost", "true")
         container = ttk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         title = ttk.Label(
