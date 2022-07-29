@@ -24,6 +24,7 @@ class ProductPage(tkinter.Toplevel):
         image_label = ttk.Label(container, image=img)
         image_label.img = img
         image_label.grid(row=1, column=0, columnspan=4, padx=5, pady=5)
+        image_label.bind("<Button-1>", lambda e: webbrowser.open(product.link))
 
         text = ttk.Label(
             container, text=product.text, wraplength=700, font=("Verdana", 10)
@@ -34,7 +35,5 @@ class ProductPage(tkinter.Toplevel):
             container, text="Follow link", command=lambda: webbrowser.open(product.link)
         )
         button.grid(row=4, column=0, columnspan=2, padx=5, pady=5)
-        exit_button = ttk.Button(
-            container, text="Close Subwindow", command=self.destroy
-        )
+        exit_button = ttk.Button(container, text="Close window", command=self.destroy)
         exit_button.grid(row=4, column=2, columnspan=2, padx=5, pady=5)
