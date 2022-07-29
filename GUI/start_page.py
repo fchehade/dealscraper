@@ -30,6 +30,12 @@ class StartPage(ttk.Frame):
             image_label = ttk.Label(frame, image=img)
             image_label.img = img
             image_label.pack()
+            image_label.bind(
+                "<Button-1>",
+                lambda event, specific_item=product: self.open_product_page(
+                    specific_item, controller
+                ),
+            )
 
             button = ttk.Button(
                 frame,
