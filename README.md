@@ -24,9 +24,8 @@ Constructive criticism and contributions are well appreciated.
 
 **Key Features**
 ---
-+ check current free products on https://www.sparwelt.de/gratis/cashback in a little neat tkinter applicatiom
-+ application helps to separate the unnecessary from the interesting product facts
-+ have a neat graphical interface to manage all of your "deal hunting"
++ check current free products on https://www.sparwelt.de/gratis/cashback in a single application
++ `dealscraper` helps to unclog all the clutter that you normally receive on a free products page
 
 **Usage**
 ---
