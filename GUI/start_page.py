@@ -8,8 +8,8 @@ class StartPage(ttk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
 
-        label = ttk.Label(self, text="Start Page", font=("Verdana", 16))
-        label.pack(side="top")
+        label = ttk.Label(self, text="Product Overview", font=("Verdana", 16))
+        label.pack(side="top", pady=20)
 
         canvas = tkinter.Canvas(self)
         canvas.pack(side="left", expand=True, fill="both")
@@ -48,9 +48,9 @@ class StartPage(ttk.Frame):
             button.pack()
 
             if index % 2 == 0:
-                frame.grid(row=index - 1, column=1)
+                frame.grid(row=index - 1, column=1, padx=15, pady=15)
             else:
-                frame.grid(row=index, column=0)
+                frame.grid(row=index, column=0, padx=15, pady=15)
 
     def open_product_page(self, product, controller):
         ProductPage(controller, product)
