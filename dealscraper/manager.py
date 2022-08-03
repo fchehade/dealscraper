@@ -20,11 +20,11 @@ class Manager:
         """Threaded approach for faster scraping of image data mainly"""
         with ThreadPoolExecutor(10) as executor:
             [
-                executor.submit(self.__extract_data, index, item)
+                executor.submit(self._extract_data, index, item)
                 for index, item in enumerate(self.soup, start=1)
             ]
 
-    def __extract_data(self, index, item) -> None:
+    def _extract_data(self, index, item) -> None:
         """Extracts relevant data and assigns it to self.product_list
 
         Args:
@@ -36,12 +36,12 @@ class Manager:
         product.title = item.find("div", {"class": "title"}).text.strip()
         product.text = item.find("p").text.strip()
         product.image_url = item.find("img", {"class": "lazyload"})["data-src"]
-        self.__download_image(product)
-        product.image = self.__load_in_image(product)
+        self._download_image(product)
+        product.image = self._load_in_image(product)
         product.link = item.find("button", {"class": "btn"})["data-clickout-blank"]
         self.product_list.append(product)
 
-    def __download_image(self, product) -> None:
+    def _download_image(self, product) -> None:
         """Downloads image data and saves it in temporary folder under it's unique ID.
 
         Args:
@@ -53,7 +53,7 @@ class Manager:
         with open(f"{path}/{product.id}.png", "wb") as file_handler:
             file_handler.write(img)
 
-    def __load_in_image(self, product) -> Image:
+    def _load_in_image(self, product) -> Image:
         """Loads in the stored images as Image objects
 
         Args:

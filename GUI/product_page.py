@@ -32,8 +32,8 @@ class ProductPage(tkinter.Toplevel):
         text.grid(row=3, column=0, padx=5, columnspan=4, pady=15)
 
         button = ttk.Button(
-            container, text="Follow link", command=lambda: webbrowser.open(product.link)
+            container, text="follow link", command=lambda: webbrowser.open(product.link)
         )
         button.grid(row=4, column=0, columnspan=2, padx=15, pady=15)
-        exit_button = ttk.Button(container, text="Close window", command=self.destroy)
+        exit_button = ttk.Button(container, text="close window", command=self.destroy)
         exit_button.grid(row=4, column=2, columnspan=2, padx=15, pady=15)

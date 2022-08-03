@@ -2,11 +2,11 @@
 
 ![Badges](https://img.shields.io/github/languages/code-size/fchehade/dealscraper) ![Badges](https://img.shields.io/github/license/fchehade/dealscraper)
 
-`dealscraper` is a quick alternative to searching https://www.sparwelt.de/gratis/cashback manually. dealscraper will download all free product offer and display them sorted by date in a tkinter application.
+`dealscraper` is a quick alternative to searching https://www.sparwelt.de/gratis/cashback manually. dealscraper will download all free product offers and displays them sorted by date in a tkinter application.
 
-Here you can select offer that interest you to get more information in a new window. If you like to read more about the offer, you cann click the `Follow Link`-Button to open a new browser tab directly to the product.
+From here you can select offer that interest you to get more information in a new window. If you like to read more about the product, you can click the `follow link`-Button to open a new browser tab directly to the product.
 
-As this is a site I regularly check for offers and those kind of websites tend to swarm you with information I scraped this website to extract necessary information.
+As this is a site I check regularly for offers and those kind of websites tend to swarm you with information I scraped this website to extract necessary information.
 
 All of this project is a work-in-progress and subject to change.
 
